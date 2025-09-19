@@ -7,6 +7,20 @@
 
 **Megaline Plan Recomendation System** es un sistema de machine learning para la compañía Megaline que recomienda automáticamente el plan móvil óptimo (Smart o Ultra) a los clientes basándose en su comportamiento histórico de uso. El proyecto aborda el desafío de migrar clientes de planes heredados hacia los nuevos planes mediante un modelo de clasificación binaria con una precisión superior al 75%.
 
+## 🚀 Resultados
+El modelo final **Random Forest** demostró:
+- Precisión superior al 75% en datos de prueba.
+- Capacidad de generalización para nuevos clientes.
+- Balance óptimo entre recall y precisión.
+- Validación mediante prueba de cordura contra baseline simple.
+
+## 💼 Impacto Empresarial
+- **Reducción de churn**: Mejor satisfacción del cliente con planes adecuados
+- **Optimización de ingresos**: Migración efectiva a planes premium cuando es relevante
+- **Automatización**: Sistema escalable para recomendaciones en tiempo real
+- **Data-driven decisions**: Decisiones basadas en patrones reales de uso
+
+
 ## 🎯 Habilidades principales
 #### Analisis de datos
 * Análisis Exploratorio de Datos (EDA): Limpieza de datos, identificación de distribuciones, correlaciones y relaciones entre variables de comportamiento del usuario.
@@ -28,19 +42,6 @@
 * **Backend** -> Python 3.8+, Pandas, NumPy
 * **Visualización** -> Matplotlib, Seaborn
 * **Desarrollo** -> Jupyter Notebooks
-
-## 🚀 Resultados
-El modelo final **Random Forest** demostró:
-- Precisión superior al 75% en datos de prueba.
-- Capacidad de generalización para nuevos clientes.
-- Balance óptimo entre recall y precisión.
-- Validación mediante prueba de cordura contra baseline simple.
-
-## 💼 Impacto Empresarial
-- **Reducción de churn**: Mejor satisfacción del cliente con planes adecuados
-- **Optimización de ingresos**: Migración efectiva a planes premium cuando es relevante
-- **Automatización**: Sistema escalable para recomendaciones en tiempo real
-- **Data-driven decisions**: Decisiones basadas en patrones reales de uso
 
 ## Ejecución Local
 1. Clona el repositorio:
