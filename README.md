@@ -1,11 +1,11 @@
-# Megaline Plan Recommendation System - Recomendación de Planes Móviles Smart/Ultra - Modelo Predictivo
+# Megaline Plan Recommendation System - Smart/Ultra Mobile Plan Predictive Model
 
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange?logo=scikit-learn)](https://scikit-learn.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Megaline Plan Recomendation System** es un sistema de machine learning para la compañía Megaline que recomienda automáticamente el plan móvil óptimo (Smart o Ultra) a los clientes basándose en su comportamiento histórico de uso. El proyecto aborda el desafío de migrar clientes de planes heredados hacia los nuevos planes mediante un modelo de clasificación binaria con una precisión superior al 75%.
+**Megaline Plan Recommendation System** is a machine learning solution for Megaline company that automatically recommends the optimal mobile plan (Smart or Ultra) to customers based on their historical usage behavior. The project addresses the challenge of migrating customers from legacy plans to new plans through a binary classification model achieving over 75% accuracy.
 
 ## 🚀 Resultados
 El modelo final **Random Forest** demostró:
