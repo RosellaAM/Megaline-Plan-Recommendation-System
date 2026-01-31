@@ -45,3 +45,13 @@ Developed a classification system that analyzes customer usage patterns (call mi
 **Backend:** Python, Pandas, NumPy, Joblib  
 **Frontend:** Streamlit  
 **Visualization:** Plotly, Matplotlib, Seaborn
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/RosellaAM/Megaline-Plan-Recommendation-System.git
+
+pip install -r requirements.txt
+
+streamlit run app/megaline_app.py
