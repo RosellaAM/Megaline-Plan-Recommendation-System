@@ -2,7 +2,7 @@
 import joblib
 import os
 import pandas as pd
-import plotly_express as px
+import plotly.express as px
 import requests
 import streamlit as st
 import streamlit.components.v1 as components
