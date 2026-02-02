@@ -2,7 +2,7 @@
 import joblib
 import os
 import pandas as pd
-import plotly_express as px
+import plotly.express as px
 import requests
 import streamlit as st
 import streamlit.components.v1 as components
@@ -51,7 +51,7 @@ model, scaler, success = load_assets()
 # Sample datasets
 january_df = pd.read_csv('https://raw.githubusercontent.com/RosellaAM/Megaline-Plan-Recommendation-System/refs/heads/main/datasets/megaline_january.csv')
 february_df = pd.read_csv('https://raw.githubusercontent.com/RosellaAM/Megaline-Plan-Recommendation-System/refs/heads/main/datasets/megaline_february.csv')
-march_df = pd.read_csv('https://github.com/RosellaAM/Megaline-Plan-Recommendation-System/blob/main/datasets/megaline_march.csv')
+march_df = pd.read_csv('https://raw.githubusercontent.com/RosellaAM/Megaline-Plan-Recommendation-System/refs/heads/main/datasets/megaline_march.csv')
 
 # Functions to handle the datasets
 def use_january_data():
@@ -346,9 +346,9 @@ elif st.session_state['page'] == 'Results':
             
         insights = []
         if client_data['minutes'] > 500:
-            insights.append(f"High minutes usage ({client_data['minutes']} min)")
+            insights.append(f"High minutes usage ({client_data['minutes']:.3f} min)")
         if client_data['mb_used'] > 15000:
-            insights.append(f"High data consumption ({client_data['mb_used']} MB)")
+            insights.append(f"High data consumption ({client_data['mb_used']:.3f} MB)")
         if client_data['calls'] > 100:
             insights.append(f"Frequent caller ({client_data['calls']} calls)")
             
