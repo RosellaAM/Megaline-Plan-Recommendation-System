@@ -9,7 +9,7 @@
 
 **Domain:** Telecommunications  
 **Model:** Random Forest Classifier (88% Accuracy)  
-**Live Demo:** [View Application](https://megalineapppy-tsf.streamlit.app/)
+**Live Demo:** [View Application](https://megaline-plans.streamlit.app/)
 
 ## 📋 Project Overview
 
